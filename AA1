@@ -1,0 +1,32 @@
+Git pull is combination of git fetch + git merge. 
+   * Git pull is used to fetch and merge changes code from the remote repository to  get into the local repository.
+     we can use git pull that changes code directlly we can get remote repository to local repository.
+   * Git pull updates the current HEAD branch with the latest changes from the remote server to local.
+
+   Git fetch is made changes in remote server and use git fetch doesn't show that commit changes in local server, only show with out commit changes 
+   then after merge it show latest commit in local server.
+
+2. What is a merge conflict in Git?
+   A merge conflict  that occurs when Git is unable to automatically resolve differences in code between two commits.
+   Generally conflicts arrives when two developers in one team modified made changes code same line in one file, if one developer deleted a file . while another
+   Developer was modified it.then merged then that time confilts occer.in this cases git can't automatically determine what is correct.then resolve and after push it.
+
+3. What is Git stash?
+   Git stash is like temporary memory.you will be worked in one file and add it, suddenlly assign work on anothr branches then that time this file make hide using stash command.
+   then after complete that work again continue your work. 
+   developer and you want to switch branches to work on something else. The issue is you don’t want to make commits in uncompleted work,
+   so you just want to get back to this point later. The solution here is the Git stash.
+
+4. What is the difference between git merge and git rebase?
+   Git rebase and merge both integrate changes from one branch into another. ... Git rebase moves a feature branch into a master. Git merge adds a new commit
+   For suppose if changes and commit in one branch that branch latest commit doesn't show in another branch that time we use git rebase. we get latest
+   commit show in another branch also. 
+ 
+      Git merge is integrate changes from one branches into another branch. 
+
+5. git reset vs git revert ?
+   git reset command use to files are moved from working area to stageing area, but don't wont to commit again that file are come back to stageing area to working 
+   directory use this command.
+   git revert creates a new commit with the changes that are rolled back.
+
+
