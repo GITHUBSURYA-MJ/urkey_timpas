@@ -24,8 +24,17 @@ Git pull is combination of git fetch + git merge.
  
       Git merge is integrate changes from one branches into another branch. 
 
-5. git reset vs git revert ?
-   git reset command use to files are moved from working area to stageing area, but don't wont to commit again that file are come back to stageing area to working 
+
+
+
+
+
+
+
+
+
+
+t reset command use to files are moved from working area to stageing area, but don't wont to commit again that file are come back to stageing area to working 
    directory use this command.
    git revert creates a new commit with the changes that are rolled back.
 
